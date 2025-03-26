@@ -1,0 +1,167 @@
+.loader {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.jimu-primary-loading:before,
+.jimu-primary-loading:after {
+	position: absolute;
+	top: 0;
+	content: '';
+}
+
+.jimu-primary-loading:before {
+	left: -19.992px;
+}
+
+.jimu-primary-loading:after {
+	left: 19.992px;
+	-webkit-animation-delay: 0.32s !important;
+	animation-delay: 0.32s !important;
+}
+
+.jimu-primary-loading:before,
+.jimu-primary-loading:after,
+.jimu-primary-loading {
+	background: #076fe5;
+	-webkit-animation: loading-keys-app-loading 0.8s infinite ease-in-out;
+	animation: loading-keys-app-loading 0.8s infinite ease-in-out;
+	width: 13.6px;
+	height: 32px;
+}
+
+.jimu-primary-loading {
+	text-indent: -9999em;
+	margin: auto;
+	position: absolute;
+	right: calc(50% - 6.8px);
+	top: calc(50% - 16px);
+	-webkit-animation-delay: 0.16s !important;
+	animation-delay: 0.16s !important;
+}
+
+@-webkit-keyframes loading-keys-app-loading {
+
+	0%,
+	80%,
+	100% {
+		opacity: .75;
+		box-shadow: 0 0 #076fe5;
+		height: 32px;
+	}
+
+	40% {
+		opacity: 1;
+		box-shadow: 0 -8px #076fe5;
+		height: 40px;
+	}
+}
+
+@keyframes loading-keys-app-loading {
+
+	0%,
+	80%,
+	100% {
+		opacity: .75;
+		box-shadow: 0 0 #076fe5;
+		height: 32px;
+	}
+
+	40% {
+		opacity: 1;
+		box-shadow: 0 -8px #076fe5;
+		height: 40px;
+	}
+}
+
+/* SELECT2 Stylesheet */
+
+.select2-selection__rendered {
+	line-height: 40px !important;
+}
+
+.select2-container .select2-selection--single {
+	height: 42px !important;
+	color: #343a40 !important;
+	border: 1px solid #d1d8ea !important;
+	font-size: .1m !important;
+	font-weight: 300 !important;
+	border-radius: .375rem;
+}
+
+.select2-selection__arrow {
+	height: 34px !important;
+	font-size: .1m !important;
+}
+
+.select2-dropdown .select2-results__option {
+	font-size: 0.775rem !important;
+	/* Adjust font size for dropdown items */
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+/* TABLE */
+.table th {
+	font-size: 13px !important;
+	padding: 11px 5px 11px 5px !important;
+	font-weight: 200;
+	background-color: #055bbb;
+	color: #fff;
+}
+
+.table td {
+	font-size: 13px !important;
+	padding: 5px 5px 5px 5px !important;
+	font-weight: 300;
+}
+
+/* Label Floating */
+.form-control {
+	font-size: 13px !important;
+	font-weight: 300 !important;
+}
+
+.form-floating {
+	font-size: 13px;
+	line-height: 25px;
+	color: #adadad;
+}
+
+.form-floating>.form-control,
+.form-floating>.form-control-plaintext {
+	padding: 0rem .75rem;
+}
+
+.form-floating>.form-control,
+.form-floating>.form-control-plaintext,
+.form-floating>.form-select {
+	height: calc(2.5rem + 2px);
+	line-height: 18;
+}
+
+.form-floating>label {
+	padding: 0.5rem 0.75rem;
+}
+
+@media (min-width: 1200px) {
+	.modal-xl {
+		--bs-modal-width: 1500px;
+	}
+}
+
+/* Badge css */
+
+.status-badge {
+	font-size: 12px;
+	font-weight: 200;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
