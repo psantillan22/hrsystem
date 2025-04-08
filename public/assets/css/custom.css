@@ -165,3 +165,14 @@ input[type=number] {
 	padding-left: 10px;
 	padding-right: 10px;
 }
+
+.form-floating>textarea.form-control {
+    line-height: 2;
+	height: 100px;
+}
+
+.form-floating>select.form-control {
+    line-height: 2.5;
+	padding-top: .5rem !important;
+    padding-bottom: .5rem !important;
+}

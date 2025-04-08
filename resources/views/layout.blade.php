@@ -47,6 +47,7 @@
     </div>
 
     <script src="{{ url('/assets/js/dashmix.app.min.js') }} "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
 
     <!-- jQuery (required for DataTables plugin) -->
     <script src="{{ url('/assets/js/lib/jquery.min.js') }}"></script>

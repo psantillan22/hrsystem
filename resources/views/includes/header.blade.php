@@ -13,9 +13,9 @@
 
             <!-- Open Search Section -->
             <!-- Layout API, functionality initialized in Template._uiApiLayout() -->
-            <button type="button" class="btn btn-alt-secondary" data-toggle="layout" data-action="header_search_on">
+            <!-- <button type="button" class="btn btn-alt-secondary" data-toggle="layout" data-action="header_search_on">
               <i class="fa fa-fw opacity-50 fa-search"></i> <span class="ms-1 d-none d-sm-inline-block">Search</span>
-            </button>
+            </button> -->
             <!-- END Open Search Section -->
           </div>
           <!-- END Left Section -->
@@ -23,7 +23,7 @@
           <!-- Right Section -->
           <div class="space-x-1">
             <!-- Notifications Dropdown -->
-            <div class="dropdown d-inline-block">
+            <!-- <div class="dropdown d-inline-block">
               <button type="button" class="btn btn-alt-secondary" id="page-header-notifications-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fa fa-fw fa-bell"></i>
               </button>
@@ -94,7 +94,7 @@
                   </a>
                 </div>
               </div>
-            </div>
+            </div> -->
             <!-- END Notifications Dropdown -->
 
             <!-- User Dropdown -->
@@ -109,10 +109,10 @@
                   User Options
                 </div>
                 <div class="p-2">
-                  <a class="dropdown-item" href="be_pages_generic_profile.html">
+                  <!-- <a class="dropdown-item" href="be_pages_generic_profile.html">
                     <i class="far fa-fw fa-user me-1"></i> Profile
                   </a>                  
-                  <div role="separator" class="dropdown-divider"></div>
+                  <div role="separator" class="dropdown-divider"></div> -->
 
                   <!-- Toggle Side Overlay -->
                   <!-- Layout API, functionality initialized in Template._uiApiLayout() -->
